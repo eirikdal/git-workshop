@@ -20,7 +20,7 @@ ex06 - Bjarne har mistet en commit. Hjelp han å finne den igjen og flytte den t
 
 ex07 - Freddy Hipster har lagt sin private ssh nøkkel i repo, og nå trenger han din hjelp til å finne den igjen. [medium]
 
-ex07a - Klok av skade har Freddy Hipster funnet en ny løsning for å
+ex07a - Klok av skade har Freddy har kommet opp med en ny og lur for å finne igjen SSH nøkkelen sin i repo. Hva har han gjort? [enkel/medium]
 
 ex08 - Freddy Hipster angrer dypt på at han committet sin private ssh nøkkel i et opensource github repo. Kan du hjelpe han å fjerne den fra historikken helt? [vanskelig]
 
