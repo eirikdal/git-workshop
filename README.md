@@ -34,11 +34,11 @@ bonus02 - Du og din kollega jobber på et prosjekt og du har nettopp gjort en en
 
 bonus03 - Som en god soldat så er du disiplinert og committer ofte. Nå er det tid for å pushe, men først vil du rydde litt i historikken..
 
-bonus04 - Bjarne har lagd en feature-branch, men han har gjort noe feil. Egentlig ville han branche ut fra master, men nå er alt galt. Hjelp han å løse problemet.. <!--  -->
+bonus04 - Bjarne har lagd en feature-branch, men han har gjort noe feil. Egentlig ville han branche ut fra master, men nå er alt galt. Hjelp han å løse problemet.. 
 
 bonus05 - Bjarne har ved et uhell committet en stor fil til repo. Finn ut hvordan du kan fjerne denne fra historikken. [vanskelig]
 
-#### Siste utfordring
+#### Alternativ 1: Siste utfordring
 
 Du har ødelagt Git, men du trenger desperat et repo med en branch og en commit. Du har ikke tilgang til internett, så du får ikke lastet ned en
 ny versjon. Lag et Git repo uten å bruke Git i det hele tatt.
@@ -53,6 +53,17 @@ Repoet skal ha minst:
 Se data-model-4.png for eksempel.
 
 Det er lov å bruke Git for å verifisere at repoet ditt fungerer.
+
+#### Alternativ 2: Gitklient
+
+Lag din egen Git klient i valgfritt språk. Denne skal klare å:
+
+* Opprette nytt repo (ingen andre krav til repo annet enn at Git skal kunne gjenkjenne det)
+* Adde fil til staging area
+* Lage commit av innholdet i staging area
+
+Det er ingen krav til at programmet må være brukervennlig.
+
 
 ## Hints:
 
