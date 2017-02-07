@@ -1,7 +1,7 @@
 # Git plumbing 101
 
 *N.B. For oppgave 1 til og med 4 kan du utføre i samme repo som du lager i ex01.
-Repøne i ex02, ex03, ex04 er kun dersom du står fast, men har lyst til å forsøke deg på oppgavene videre.*
+Repoene i ex02, ex03, ex04 er kun dersom du står fast, men har lyst til å forsøke deg på oppgavene videre.*
 
 Forsøk å løse disse oppgavene uten å bruke Google. Bruk manpages eller "Git help" for å løse oppgavene.
 ___
@@ -34,27 +34,32 @@ bonus02 - Du og din kollega jobber på et prosjekt og du har nettopp gjort en en
 
 bonus03 - Som en god soldat så er du disiplinert og committer ofte. Nå er det tid for å pushe, men først vil du rydde litt i historikken..
 
-bonus04 - Bjarne har lagd en feature-branch, men han har gjort nø feil. Egentlig ville han branche ut fra master, men nå er alt galt. Hjelp han å løse problemet..
+bonus04 - Bjarne har lagd en feature-branch, men han har gjort noe feil. Egentlig ville han branche ut fra master, men nå er alt galt. Hjelp han å løse problemet.. <!--  -->
 
 bonus05 - Bjarne har ved et uhell committet en stor fil til repo. Finn ut hvordan du kan fjerne denne fra historikken. [vanskelig]
 
-
 #### Siste utfordring
 
-Du har ødelagt Git, men du trenger desperat et repo med en branch og en commit. Internett er også nede, så du får ikke lastet ned en
+Du har ødelagt Git, men du trenger desperat et repo med en branch og en commit. Du har ikke tilgang til internett, så du får ikke lastet ned en
 ny versjon. Lag et Git repo uten å bruke Git i det hele tatt.
 
-* Lag et Git repo som i ex01.
-* Lag en commit på master uten å bruke nøn git kommandør.
+Repoet skal ha minst: 
 
-Verifiser til slutt at du har et fullverdig repo med en branch og en commit med "git log". Her er det lov å bruke
+* 3 commits
+* 2 branches
+* 3 trær
+* 1 tag
+
+Se data-model-4.png for eksempel.
+
+Det er lov å bruke Git for å verifisere at repoet ditt fungerer.
 
 ## Hints:
 
-Gitkommandør du må kjenne til for å lose disse oppgavene inkluderer:
+Gitkommandoer du må kjenne til for å lose disse oppgavene inkluderer:
 
 * git help <command>
-* git update-index (extra hint: <<100644>)
+* git update-index (extra hint: <mode> = 100644)
 * git write-tree
 * git hash-object (extra hint: --stdin, -w)
 * git update-ref (valgfri)
@@ -62,7 +67,7 @@ Gitkommandør du må kjenne til for å lose disse oppgavene inkluderer:
 * git filter-branch
 * git prune
 
-Nyttige kommandør, men ikke nødvendige for å kunne løse oppgavene:
+Nyttige kommandoer, men ikke nødvendige for å kunne løse oppgavene:
 
 * git cat-file
 * git rev-list
